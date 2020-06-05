@@ -225,16 +225,31 @@ footer {
 
 
 /* main fixes */
+@media (max-width: 1150px) {
+    #dwarves-text {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 1075px) {
     .box p {
         font-size: 36px;
     }
-}
-/* @media (max-width: 1010px) {
-    .case .quote {
-        margin: 10px 10% 0 10%;
+    #dwarves-text {
+        font-size: 28px;
+        top: 200px;
     }
-} */
+    #plane-text {
+        font-size: 28px;
+    }
+    #pinata-text {
+        font-size: 28px;
+    }
+    #allergic-text {
+        margin: 18px;
+        font-size: 28px;
+    }
+}
 
 @media (max-width: 985px) {
     .box {
@@ -256,6 +271,26 @@ footer {
     .shadowthimble {
         display: none;
     }
+    #dwarves-text {
+        font-size: 24px;
+        top: 150px;
+    }
+    .plane {
+        height: 250px;
+        padding: 0 5% 0 5%;
+        position: relative;
+        top: 125px;
+    }
+    #plane-text {
+        font-size: 26px;
+    }
+    #pinata-text {
+        font-size: 26px;
+    }
+    #allergic-text {
+        margin: 16px;
+        font-size: 26px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -272,6 +307,74 @@ footer {
         align-items: center;
         position: relative;
         top: 15%;
+    }
+    #dwarves-text {
+        font-size: 22px;
+        top: 100px;
+    }
+    .plane {
+        height: 200px;
+        padding: 0 2% 0 2%;
+        position: relative;
+        top: 125px;
+    }
+    #plane-text {
+        font-size: 24px;
+    }
+    #pinata-text {
+        font-size: 24px;
+    }
+    .pinata {
+        height: 300px;
+        padding: 20px 5%;
+    }
+    .grossface {
+        height: 300px;
+    }
+    #allergic-text {
+        margin: 16px;
+        font-size: 24px;
+}
+
+@media (max-width: 640px) {
+    #dwarves-text {
+        font-size: 20px;
+        top: 85px;
+    }
+    .plane {
+        height: 170px;
+        padding: 0 1% 0 1%;
+        top: 185px;
+    }
+    #plane-text {
+        font-size: 22px;
+    }
+    #pinata-text {
+        font-size: 22px;
+    }
+    #allergic-text {
+        font-size: 22px;
+    }
+}
+@media (max-width: 595px) {
+    #dwarves-text {
+        font-size: 22px;
+        top: 250px;
+    }
+    .plane {
+        height: 170px;
+        padding: 0 1% 0 1%;
+        top: 185px;
+    }
+    #plane-text {
+        font-size: 20px;
+    }
+    #pinata-text {
+        font-size: 20px;
+    }
+    #allergic-text {
+        margin: 14px;
+        font-size: 18px;
     }
 }
 
