@@ -222,6 +222,17 @@ footer {
     height: 90px;
     z-index: 99;
 }
+.footer-div {
+    color: white;
+    text-align: right;
+    padding: 40px 25px 0px 0px;
+}
+a {
+    color: white;
+}
+.footer-div p {
+    padding-top: 10px;
+}
 
 
 /* main fixes */
